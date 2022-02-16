@@ -1,3 +1,4 @@
+Modifying for first git commit
 ---
 title: "R-eading_installing_files_for_R"
 author: "JR"
@@ -44,9 +45,6 @@ library(tidyverse)
 9) Make a change (enter a space whatever)
 
 10) Commit and push this to your git hub repository.
-
-
-
 
 # Now that we are all set up we can start installing packges
 
