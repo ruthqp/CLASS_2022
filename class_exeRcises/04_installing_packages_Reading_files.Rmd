@@ -1,3 +1,4 @@
+Modifying for testing
 ---
 title: "R-eading_installing_files_for_R"
 author: "JR"
@@ -44,9 +45,6 @@ library(tidyverse)
 9) Make a change (enter a space whatever)
 
 10) Commit and push this to your git hub repository.
-
-
-
 
 # Now that we are all set up we can start installing packges
 
@@ -241,6 +239,7 @@ hist(peaks_per_dbp$num_peaks, breaks = 100)
 # MAKE SURE YOU ARE IN RIGHT WORKING DIR analysis/04_x
 
 pdf("figures/hist_of_peaks_per_dbp.pdf")
+pdf("/scratch/Shares/rinnclass/CLASS_2022/ruthquispe/CLASS_2022/class_exeRcises/analysis/04_installing_packages/Rplot.pdf")
 hist(peaks_per_dbp$num_peaks, breaks = 40) 
 dev.off()
 
@@ -252,7 +251,7 @@ dev.off()
 
 # we will use base R to plot the num_peaks versus genome coverage
 
-pdf("figures/num_peaks_vs_coverage.pdf")
+pdf("/scratch/Shares/rinnclass/CLASS_2022/ruthquispe/CLASS_2022/class_exeRcises/analysis/04_installing_packages/Rplotpeaksvsgenomecoverage.pdf")
 
 plot(x = peaks_per_dbp$num_peaks, y = peaks_per_dbp$total_peak_length)
 
